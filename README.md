@@ -1,20 +1,25 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
+<div>
+  <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Iguana
 </h1>
+<h2 align="center">Dedicação Premium com o Cliente, Parceiros & Colaboradores</h2>
+</div>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+![Design Preview](thumbnail.png)
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+A company is represented by what it does and not by what it says, that's why I decided to bet on a Design that visually showed its firmness and solidity. The design shows this (or at least tries) because of its well-standardized structure and layout, without borders. In addition, I used bold fonts (letters) that could complement the visual proposal and also give the impression of firmness in the words.
+
+_This project was developed by me from design to development. You can get a copy of the design [here](https://www.figma.com/file/jK5sZDj50o1W9QFikkVxa4/Iguana)._
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Create your own Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the hello-world starter.
 
@@ -86,9 +91,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+-   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+-   **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
 
