@@ -157,8 +157,14 @@ export const HomeTitle = styled.div`
     }
 
     @media ${props => props.theme.mediaQueries.smaller} {
+        h1 {
+            font-size: 3.5rem;
+        }
     }
 
     @media ${props => props.theme.mediaQueries.smallest} {
+        h1 {
+            font-size: 3rem;
+        }
     }
 `
