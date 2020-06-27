@@ -134,20 +134,17 @@ export const HomeTitle = styled.div`
 
     @media ${props => props.theme.mediaQueries.large} {
         h1 {
-            font-size: 5.1rem;
+            font-size: 4rem;
         }
     }
 
     @media ${props => props.theme.mediaQueries.medium} {
         color: var(--white);
+        text-align: center;
 
         h1 {
             color: var(--white);
         }
-    }
-
-    @media ${props => props.theme.mediaQueries.small} {
-        text-align: center;
 
         div {
             text-align: center;

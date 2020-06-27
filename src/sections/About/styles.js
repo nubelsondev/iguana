@@ -71,15 +71,15 @@ export const Info = styled(StyledSide)`
     justify-content: center;
     align-items: center;
 
+    @media ${props => props.theme.mediaQueries.largest} {
+        padding: 3rem;
+    }
+
     @media ${props => props.theme.mediaQueries.medium} {
         width: 100%;
     }
 
     @media ${props => props.theme.mediaQueries.small} {
-        padding: 14rem 3.5rem;
-    }
-
-    @media ${props => props.theme.mediaQueries.smaller} {
         padding: 14rem 3rem;
     }
 
@@ -102,21 +102,24 @@ const StyledTitle = styled.div`
         text-align: right;
     }
 
-    @media ${props => props.theme.mediaQueries.small} {
+    @media ${props => props.theme.mediaQueries.large} {
         h2 {
-            font-size: 4.6rem;
-        }
-
-        p {
-            max-width: 100%;
+            font-size: 4.5rem;
         }
     }
 
-    @media ${props => props.theme.mediaQueries.smaller} {
+    @media ${props => props.theme.mediaQueries.medium} {
         text-align: center;
 
         p {
             text-align: center;
+            max-width: 100%;
+        }
+    }
+
+    @media ${props => props.theme.mediaQueries.small} {
+        h2 {
+            font-size: 4.6rem;
         }
     }
 
@@ -147,7 +150,13 @@ export const ContentGroup = styled.div`
         font-size: 3.4rem;
     }
 
-    @media ${props => props.theme.mediaQueries.smaller} {
+    @media ${props => props.theme.mediaQueries.large} {
+        h3 {
+            font-size: 3rem;
+        }
+    }
+
+    @media ${props => props.theme.mediaQueries.medium} {
         text-align: center;
     }
 

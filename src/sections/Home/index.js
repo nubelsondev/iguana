@@ -10,8 +10,8 @@ const Home = () => {
             <Info>
                 <HomeTitle>
                     <h1>
-                        Dedicação Premium <br /> com o Cliente, Parceiros &
-                        Colaboradores.
+                        Dedicação Premium <br /> com o Cliente, Parceiros <br />{" "}
+                        & Colaboradores.
                     </h1>
                     <div>
                         <p>
