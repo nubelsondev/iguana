@@ -1,13 +1,14 @@
 import React from "react"
 
 import Layout from "../components/Layout"
+import Home from "../sections/Home"
 
-export default function Home() {
+const App = () => {
     return (
         <Layout>
-            <div>
-                <h1>Hello World!</h1>
-            </div>
+            <Home />
         </Layout>
     )
 }
+
+export default App
