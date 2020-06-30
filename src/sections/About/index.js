@@ -13,7 +13,7 @@ import {
 
 const About = () => {
     return (
-        <StyledSection>
+        <StyledSection id="about">
             <Image background image={AboutImage} />
             <Info>
                 <SectionTitle

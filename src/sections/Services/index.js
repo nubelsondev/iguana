@@ -10,7 +10,7 @@ import { StyledSection, Info, Image, Content, ServiceCard } from "./styles"
 
 const Services = () => {
     return (
-        <StyledSection>
+        <StyledSection id="services">
             <Info>
                 <Content>
                     <ServiceCard icon={Document} title="Assessoria Fiscal." />

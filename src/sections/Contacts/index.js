@@ -13,7 +13,7 @@ import {
 
 const Contacts = () => {
     return (
-        <StyledSection>
+        <StyledSection id="contacts">
             <Image background image={ContactImage} />
             <Info>
                 <SectionTitle
@@ -31,7 +31,7 @@ const Contacts = () => {
                     <div>
                         <p>(+000)-923-456-789</p>
                         <p>we@email.com</p>
-                        <a href="#">Email Us</a>
+                        <a href="mailto:geral@iguana.com">Email Us</a>
                     </div>
                 </Content>
 

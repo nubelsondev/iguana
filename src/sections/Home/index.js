@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-scroll"
 
 import HomeImage from "../../content/home.png"
 
@@ -6,7 +7,7 @@ import { StyledSection, Info, Image, HomeTitle } from "./styles"
 
 const Home = () => {
     return (
-        <StyledSection>
+        <StyledSection id="home">
             <Info>
                 <HomeTitle>
                     <h1>
@@ -19,7 +20,9 @@ const Home = () => {
                             elit. Sed eget ex vehicula, vulputate diam vel,
                             ultrices mauris.
                         </p>
-                        <a href="#">Saiba Mais</a>
+                        <Link to="about" spy={true} smooth={true}>
+                            Saiba Mais
+                        </Link>
                     </div>
                 </HomeTitle>
             </Info>
