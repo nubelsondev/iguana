@@ -1,6 +1,7 @@
 import React from "react"
 
-import ServiceImage from "../../content/services.png"
+import ServiceImage from "../../content/services.webp"
+
 import Analytics from "../../content/icons/Analytics.png"
 import Document from "../../content/icons/Document.png"
 import People from "../../content/icons/People.png"

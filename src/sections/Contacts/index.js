@@ -1,6 +1,6 @@
 import React from "react"
 
-import ContactImage from "../../content/contact.png"
+import ContactImage from "../../content/contact.webp"
 
 import {
     StyledSection,

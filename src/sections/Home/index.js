@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-scroll"
 
-import HomeImage from "../../content/home.png"
+import HomeImage from "../../content/home.webp"
 
 import { StyledSection, Info, Image, HomeTitle } from "./styles"
 

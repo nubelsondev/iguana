@@ -1,6 +1,6 @@
 import React from "react"
 
-import AboutImage from "../../content/about.png"
+import AboutImage from "../../content/about.webp"
 
 import {
     StyledSection,
