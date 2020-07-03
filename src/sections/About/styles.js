@@ -8,26 +8,8 @@ export const StyledSection = styled.section`
 
     display: flex;
 
-    @media ${props => props.theme.mediaQueries.largest} {
-    }
-
-    @media ${props => props.theme.mediaQueries.larger} {
-    }
-
-    @media ${props => props.theme.mediaQueries.large} {
-    }
-
-    @media ${props => props.theme.mediaQueries.medium} {
-    }
-
     @media ${props => props.theme.mediaQueries.small} {
         height: 100%;
-    }
-
-    @media ${props => props.theme.mediaQueries.smaller} {
-    }
-
-    @media ${props => props.theme.mediaQueries.smallest} {
     }
 `
 
@@ -36,7 +18,7 @@ const StyledSide = styled.div`
     height: 100%;
     padding: 7rem;
 
-    background-color: ${({ background }) => background && "var(--black)"};
+    background-color: ${({ background }) => background && "var(--secondary)"};
 
     @media ${props => props.theme.mediaQueries.larger} {
         padding: 6rem;

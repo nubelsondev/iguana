@@ -40,7 +40,7 @@ export default createGlobalStyle`
     }
 
     h1, h2, h3, h4, h5{
-        color: var(--black);
+        color: var(--secondary);
         line-height: 1.2;
     }
 `

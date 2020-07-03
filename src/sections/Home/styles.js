@@ -6,27 +6,6 @@ export const StyledSection = styled.section`
     position: relative;
 
     display: flex;
-
-    @media ${props => props.theme.mediaQueries.largest} {
-    }
-
-    @media ${props => props.theme.mediaQueries.larger} {
-    }
-
-    @media ${props => props.theme.mediaQueries.large} {
-    }
-
-    @media ${props => props.theme.mediaQueries.medium} {
-    }
-
-    @media ${props => props.theme.mediaQueries.small} {
-    }
-
-    @media ${props => props.theme.mediaQueries.smaller} {
-    }
-
-    @media ${props => props.theme.mediaQueries.smallest} {
-    }
 `
 
 export const Info = styled.div`
@@ -114,9 +93,10 @@ export const HomeTitle = styled.div`
             color: var(--white);
             text-transform: uppercase;
             text-decoration: none;
-            background-color: var(--black);
+            background-color: var(--primary);
             padding: 1.6rem 2.6rem;
             display: inline-block;
+            cursor: pointer;
         }
     }
 
