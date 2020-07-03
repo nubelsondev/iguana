@@ -1,4 +1,5 @@
 import React from "react"
+import { IoIosArrowRoundUp } from "react-icons/io"
 
 import ContactImage from "../../content/contact.webp"
 
@@ -9,6 +10,7 @@ import {
     SectionTitle,
     Content,
     Footer,
+    ScrollToTop,
 } from "./styles"
 
 const Contacts = () => {
@@ -41,6 +43,10 @@ const Contacts = () => {
                         Built by <strong>nubelsondev</strong>
                     </p>
                 </Footer>
+
+                <ScrollToTop to="home">
+                    <IoIosArrowRoundUp size="4rem" color="#fff" />
+                </ScrollToTop>
             </Info>
         </StyledSection>
     )

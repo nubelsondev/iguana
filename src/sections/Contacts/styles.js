@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "react-scroll"
 
 export const StyledSection = styled.section`
     width: 100%;
@@ -47,6 +48,7 @@ const StyledImage = styled(StyledSide)`
 export const Info = styled(StyledSide)`
     width: 50%;
     height: 100%;
+    position: relative;
 
     display: flex;
     flex-direction: column;
@@ -171,6 +173,28 @@ export const Footer = styled.div`
     }
 `
 
+const StyledButton = styled(Link)`
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1.5rem;
+    background-color: var(--primary);
+
+    @media ${props => props.theme.mediaQueries.small} {
+        width: 6rem;
+        height: 6rem;
+        padding: 1rem;
+    }
+
+    @media ${props => props.theme.mediaQueries.small} {
+        width: 4rem;
+        height: 4rem;
+        padding: 0rem;
+    }
+`
+
 export const SectionTitle = ({ title, subtitle }) => {
     return (
         <StyledTitle>
@@ -185,5 +209,13 @@ export const Image = ({ image, background }) => {
         <StyledImage background={background} image={image}>
             <div />
         </StyledImage>
+    )
+}
+
+export const ScrollToTop = ({ to, children }) => {
+    return (
+        <StyledButton to={to} spy={true} smooth={true}>
+            {children}
+        </StyledButton>
     )
 }
