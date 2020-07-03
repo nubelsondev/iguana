@@ -181,6 +181,7 @@ const StyledButton = styled(Link)`
     right: 0;
     padding: 1.5rem;
     background-color: var(--primary);
+    cursor: pointer;
 
     @media ${props => props.theme.mediaQueries.small} {
         width: 6rem;
