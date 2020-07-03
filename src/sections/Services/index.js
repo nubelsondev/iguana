@@ -1,7 +1,5 @@
 import React from "react"
 
-import ServiceImage from "../../content/services.webp"
-
 import Analytics from "../../content/icons/Analytics.png"
 import Document from "../../content/icons/Document.png"
 import People from "../../content/icons/People.png"
@@ -29,7 +27,10 @@ const Services = () => {
                     />
                 </Content>
             </Info>
-            <Image background image={ServiceImage} />
+            <Image
+                background
+                image={`https://ik.imagekit.io/nubelsondev/service_KWdUDTXXk2.webp`}
+            />
         </StyledSection>
     )
 }

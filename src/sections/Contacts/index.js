@@ -1,8 +1,6 @@
 import React from "react"
 import { IoIosArrowRoundUp } from "react-icons/io"
 
-import ContactImage from "../../content/contact.webp"
-
 import {
     StyledSection,
     Image,
@@ -16,7 +14,10 @@ import {
 const Contacts = () => {
     return (
         <StyledSection id="contacts">
-            <Image background image={ContactImage} />
+            <Image
+                background
+                image={`https://ik.imagekit.io/nubelsondev/contact_O-1O7TZec.webp`}
+            />
             <Info>
                 <SectionTitle
                     title="Contactos"

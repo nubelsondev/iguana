@@ -1,7 +1,5 @@
 import React from "react"
 
-import AboutImage from "../../content/about.webp"
-
 import {
     StyledSection,
     Image,
@@ -14,7 +12,10 @@ import {
 const About = () => {
     return (
         <StyledSection id="about">
-            <Image background image={AboutImage} />
+            <Image
+                background
+                image={`https://ik.imagekit.io/nubelsondev/about_jTvWvxdwK.webp`}
+            />
             <Info>
                 <SectionTitle
                     title="Quem somos"

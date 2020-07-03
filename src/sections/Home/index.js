@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "react-scroll"
 
-import HomeImage from "../../content/home.webp"
-
 import { StyledSection, Info, Image, HomeTitle } from "./styles"
 
 const Home = () => {
@@ -26,7 +24,9 @@ const Home = () => {
                     </div>
                 </HomeTitle>
             </Info>
-            <Image image={HomeImage} />
+            <Image
+                image={`https://ik.imagekit.io/nubelsondev/home_EIEyT9xLfL9.webp`}
+            />
         </StyledSection>
     )
 }
