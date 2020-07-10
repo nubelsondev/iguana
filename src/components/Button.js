@@ -223,6 +223,10 @@ const Menu = () => {
         menuState === "closed" ? setMenuState("open") : setMenuState("closed")
     }
 
+    const closeMenu = () => {
+        setMenuState("closed")
+    }
+
     return (
         <>
             <MenuButton state={menuState} onClick={toggleMenuState}>
@@ -236,22 +240,42 @@ const Menu = () => {
             <MenuContent state={menuState}>
                 <MenuList state={menuState}>
                     <li>
-                        <Link to="home" spy={true} smooth={true}>
+                        <Link
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            onSetActive={closeMenu}
+                        >
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link to="about" spy={true} smooth={true}>
+                        <Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            onSetActive={closeMenu}
+                        >
                             Sobre nós
                         </Link>
                     </li>
                     <li>
-                        <Link to="services" spy={true} smooth={true}>
+                        <Link
+                            to="services"
+                            spy={true}
+                            smooth={true}
+                            onSetActive={closeMenu}
+                        >
                             Serviços
                         </Link>
                     </li>
                     <li>
-                        <Link to="contacts" spy={true} smooth={true}>
+                        <Link
+                            to="contacts"
+                            spy={true}
+                            smooth={true}
+                            onSetActive={closeMenu}
+                        >
                             Contactos
                         </Link>
                     </li>
