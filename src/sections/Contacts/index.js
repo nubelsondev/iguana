@@ -26,22 +26,32 @@ const Contacts = () => {
 
                 <Content>
                     <div>
-                        <p>Street name, nº, door</p>
-                        <p>ZIP</p>
-                        <p>City, Country</p>
+                        <p>Rua Camilo Pessanha, nº 28-B</p>
+                        <p>Vila Alice - Rangel</p>
+                        <p>Luanda, Angola</p>
                     </div>
 
                     <div>
-                        <p>(+000)-923-456-789</p>
-                        <p>we@email.com</p>
-                        <a href="mailto:geral@iguana.com">Email Us</a>
+                        <p> &#40; +244 &#41; &#45; 949 &#45; 260 &#45; 963</p>
+                        <p>geral@iguana.co.ao</p>
+                        <a href="mailto:geral@iguana.co.ao">Email Us</a>
                     </div>
                 </Content>
 
                 <Footer>
                     <p>
                         Copyright All Rights Reserved © 2020 <br /> Design and
-                        Built by <strong>nubelsondev</strong>
+                        Built by{" "}
+                        <strong>
+                            {" "}
+                            <a
+                                href="https://nubelson.dev"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                nubelsondev
+                            </a>{" "}
+                        </strong>
                     </p>
                 </Footer>
 

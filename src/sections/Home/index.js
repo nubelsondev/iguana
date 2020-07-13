@@ -14,9 +14,9 @@ const Home = () => {
                     </h1>
                     <div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed eget ex vehicula, vulputate diam vel,
-                            ultrices mauris.
+                            Uma nova forma de evoluir à si e à sua empresa,
+                            junta-te à nós. A Iguana tem tudo o que você
+                            precisa.
                         </p>
                         <Link to="about" spy={true} smooth={true}>
                             Saiba Mais

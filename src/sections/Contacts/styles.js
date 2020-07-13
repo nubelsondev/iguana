@@ -168,6 +168,10 @@ export const Footer = styled.div`
     font-size: 1.8rem;
     margin-top: 15rem;
 
+    a {
+        color: var(--black);
+    }
+
     @media ${props => props.theme.mediaQueries.larger} {
         font-size: 1.6rem;
     }

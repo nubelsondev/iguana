@@ -27,42 +27,35 @@ const About = () => {
                     <ContentGroup>
                         <h3>Nossa filosofia</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Curabitur commodo lectus quis tellus
-                            vestibulum, in facilisis lacus rhoncus. Quisque leo
-                            nisl, porta sed suscipit id, sollicitudin vel
-                            libero. Phasellus ut porttitor risus. Integer vitae
-                            bibendum turpis. Cras accumsan suscipit cursus.
-                            Phasellus malesuada posuere lobortis.
+                            A Iguana Lda, é uma empresa de direito privado,
+                            constituída por capital 100% angolano, que atua no
+                            mercado desde Junho de 2002. Somos vocacionados para
+                            o ramo de Consultoria Diversa, Formação
+                            Profissional, Assessoria Fiscal, Contabilística e
+                            Jurídica, Gestão do Pessoal, e incubadora de
+                            empresas. Temos feito novas parcerias e consórcios
+                            com empresas patenteadas no mercado nacional e
+                            estrangeiro. 
                         </p>
                         <p>
-                            Curabitur ac dolor vel nibh viverra ullamcorper at
-                            id ipsum. Nulla facilisi. Donec ultricies, justo et
-                            eleifend pulvinar, elit enim porttitor lorem, sit
-                            amet bibendum nibh velit nec metus. Quisque
-                            venenatis sollicitudin quam sit amet semper. Nam eu
-                            leo et justo egestas viverra ac non libero.
+                            A nossa filosofia de distinção é a dedicação aos
+                            nossos clientes, parceiros e colaboradores. 
                         </p>
                     </ContentGroup>
                     <ContentGroup invert>
                         <h3>Nosso objetivo</h3>
                         <p>
-                            Morbi quis iaculis massa, feugiat ornare quam. Cras
-                            massa nisi, accumsan lacinia est eget, faucibus
-                            cursus metus. Proin ac tempus velit, ut lacinia
-                            nisi. Nunc dapibus mollis dolor in tincidunt. Cras
-                            feugiat sit amet arcu quis malesuada. Nunc ut
-                            convallis risus. Quisque nisi nulla, fringilla sed
-                            porta eu, gravida non ex.
+                            Tornar-se numa prestadora de serviços por excelência
+                            a nível nacional, no âmbito de Contabilidade e
+                            Finanças, Recursos Humanos e Jurídicos bem como na
+                            criação e avaliação de negócios.
                         </p>
                         <p>
-                            Ut magna velit, dignissim non felis non, ullamcorper
-                            porttitor turpis. Nunc a ultricies tellus. Nunc
-                            dignissim nulla justo, ut efficitur leo lobortis
-                            nec. Ut porttitor, eros in pulvinar fringilla, augue
-                            tellus mollis tortor, eget interdum nunc mi eget
-                            justo. Pellentesque ultrices porttitor eros vitae
-                            sollicitudin.
+                            Atingir a médio prazo o cume do sucesso e com isso
+                            melhorar a qualidade de vida dos cidadãos gerando
+                            mais postos de trabalho e garantir a formação
+                            profissional em diversas áreas de alguns ramos de
+                            atividade.
                         </p>
                     </ContentGroup>
                 </Content>
