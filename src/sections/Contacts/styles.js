@@ -72,7 +72,7 @@ export const Content = styled.div`
     justify-content: center;
 
     p {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         font-weight: 500;
         color: var(--black);
         line-height: 1;
@@ -98,7 +98,7 @@ export const Content = styled.div`
 
     @media ${props => props.theme.mediaQueries.larger} {
         p {
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
     }
 
@@ -107,11 +107,11 @@ export const Content = styled.div`
             margin-bottom: 7rem;
         }
         p {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
 
         a {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
     }
 `
@@ -165,7 +165,7 @@ const StyledTitle = styled.div`
 export const Footer = styled.div`
     color: var(--black);
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: 15rem;
 
     a {
@@ -173,7 +173,7 @@ export const Footer = styled.div`
     }
 
     @media ${props => props.theme.mediaQueries.larger} {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 `
 
