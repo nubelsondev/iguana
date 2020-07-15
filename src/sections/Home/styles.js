@@ -8,6 +8,36 @@ export const StyledSection = styled.section`
     display: flex;
 `
 
+export const Logo = styled.img`
+    width: 24.2rem;
+    height: 17.1rem;
+
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+
+    @media ${props => props.theme.mediaQueries.larger} {
+        transform: scale(0.9);
+        top: 2rem;
+        left: 2rem;
+    }
+
+    @media ${props => props.theme.mediaQueries.medium} {
+        z-index: 5;
+        left: 50%;
+        top: 15rem;
+        transform: translateX(-50%);
+    }
+
+    @media ${props => props.theme.mediaQueries.smarter} {
+        top: 8rem;
+    }
+
+    @media ${props => props.theme.mediaQueries.smartest} {
+        top: 3rem;
+    }
+`
+
 export const Info = styled.div`
     width: 50%;
     height: 100%;

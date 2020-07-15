@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "react-scroll"
 
-import { StyledSection, Info, Image, HomeTitle } from "./styles"
+import { StyledSection, Logo, Info, Image, HomeTitle } from "./styles"
 
 const Home = () => {
     return (
         <StyledSection id="home">
+            <Logo src="https://ik.imagekit.io/nubelsondev/logo_hZxpg8Z7Q4E.png" />
             <Info>
                 <HomeTitle>
                     <h1>

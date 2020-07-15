@@ -75,7 +75,7 @@ export const Content = styled.div`
         font-size: 1.8rem;
         font-weight: 500;
         color: var(--black);
-        line-height: 1;
+        line-height: 1.6;
     }
 
     a {

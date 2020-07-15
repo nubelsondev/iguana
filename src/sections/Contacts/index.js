@@ -32,8 +32,7 @@ const Contacts = () => {
                     </div>
 
                     <div>
-                        <p> &#40; +244 &#41; &#45; 949 &#45; 260 &#45; 963</p>
-                        <p>geral@iguana.co.ao</p>
+                        <p> &#40; +244 &#41; 949 260 963</p>
                         <a href="mailto:geral@iguana.co.ao">Email Us</a>
                     </div>
                 </Content>
@@ -45,7 +44,7 @@ const Contacts = () => {
                         <strong>
                             {" "}
                             <a
-                                href="https://nubelson.dev"
+                                href="https://github.com/nubelsondev"
                                 target="_blank"
                                 rel="noreferrer"
                             >
