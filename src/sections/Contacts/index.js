@@ -9,6 +9,7 @@ import {
     Content,
     Footer,
     ScrollToTop,
+    EmailButton,
 } from "./styles"
 
 const Contacts = () => {
@@ -33,7 +34,9 @@ const Contacts = () => {
 
                     <div>
                         <p> &#40; +244 &#41; 949 260 963</p>
-                        <a href="mailto:geral@iguana.co.ao">Email Us</a>
+                        <EmailButton href="mailto:geral@iguana.co.ao">
+                            Email Us
+                        </EmailButton>
                     </div>
                 </Content>
 

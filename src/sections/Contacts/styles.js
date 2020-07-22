@@ -76,16 +76,7 @@ export const Content = styled.div`
         font-weight: 500;
         color: var(--black);
         line-height: 1.6;
-    }
-
-    a {
-        color: var(--white);
-        text-transform: uppercase;
         text-decoration: none;
-        background-color: var(--primary);
-        padding: 1.6rem 2.6rem;
-        display: inline-block;
-        margin-top: 1rem;
     }
 
     & > :first-child {
@@ -114,6 +105,16 @@ export const Content = styled.div`
             font-size: 1.2rem;
         }
     }
+`
+
+export const EmailButton = styled.a`
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 1.6rem 2.6rem;
+    display: inline-block;
+    margin-top: 1rem;
 `
 
 const StyledTitle = styled.div`
