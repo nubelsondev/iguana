@@ -62,6 +62,8 @@ export const Info = styled(StyledSide)`
     }
 `
 export const Content = styled.div`
+    position: relative;
+
     width: 100%;
     height: 100%;
     padding: 7rem 0;
@@ -100,81 +102,10 @@ export const Content = styled.div`
     }
 `
 
-const StyledCard = styled.div`
-    width: 100%;
-    color: var(--white);
-    background-color: var(--primary);
-    padding: 3rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    img {
-        width: 4rem;
-        height: 4rem;
-    }
-
-    h3 {
-        color: var(--white);
-        font-size: 3.5rem;
-        font-weight: 800;
-        text-align: right;
-        max-width: 90%;
-        margin: 10rem 0 0 auto;
-    }
-
-    @media ${props => props.theme.mediaQueries.largest} {
-        padding: 2rem;
-    }
-
-    @media ${props => props.theme.mediaQueries.larger} {
-        h3 {
-            font-size: 3.2rem;
-        }
-    }
-
-    @media ${props => props.theme.mediaQueries.large} {
-        padding: 1.5rem;
-
-        h3 {
-            font-size: 2.5rem;
-        }
-    }
-
-    @media ${props => props.theme.mediaQueries.medium} {
-        h3 {
-            font-size: 3rem;
-        }
-    }
-
-    @media ${props => props.theme.mediaQueries.small} {
-        width: 37.5rem;
-        height: 36rem;
-    }
-
-    @media ${props => props.theme.mediaQueries.smaller} {
-        width: 30rem;
-        height: 29rem;
-    }
-
-    @media ${props => props.theme.mediaQueries.smallest} {
-    }
-`
-
 export const Image = ({ image, background }) => {
     return (
         <StyledImage background={background} image={image}>
             <div />
         </StyledImage>
-    )
-}
-
-export const ServiceCard = ({ icon, title }) => {
-    return (
-        <StyledCard>
-            <img src={icon} alt="Logo" />
-            <h3>{title}</h3>
-        </StyledCard>
     )
 }
