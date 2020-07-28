@@ -33,9 +33,7 @@ const About = () => {
                             Contabilística e Jurídica, Gestão do Pessoal, e
                             incubadora de empresas. Temos feito novas parcerias
                             e consórcios com empresas patenteadas no mercado
-                            nacional e estrangeiro. Temos feito novas parcerias
-                            e consórcios com empresas patenteadas no mercado
-                            nacional e estrangeiro. 
+                            nacional e estrangeiro.
                         </p>
                         <p>
                             A nossa filosofia de distinção é a dedicação aos

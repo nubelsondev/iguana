@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { IoMdClose } from "react-icons/io"
 import styled from "styled-components"
 
 const StyledCard = styled.div`
@@ -10,6 +11,12 @@ const StyledCard = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    .logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
     img {
         width: 4rem;
@@ -38,7 +45,7 @@ const StyledCard = styled.div`
             margin-bottom: 10rem;
         }
 
-        div{
+        .content{
             font-size: 2rem;
 
             p{
@@ -116,12 +123,16 @@ const StyledCard = styled.div`
 const ServiceCard = ({ icon, title, children }) => {
     const [cardClose, setCardClose] = useState(true)
 
-    const toggleCardStatus = () => {
-        cardClose ? setCardClose(false) : setCardClose(true)
+    const openCard = () => {
+        cardClose && setCardClose(false)
+    }
+
+    const closeCard = () => {
+        !cardClose && setCardClose(true)
     }
 
     return (
-        <StyledCard state={cardClose} onClick={toggleCardStatus}>
+        <StyledCard state={cardClose} onClick={openCard}>
             {cardClose ? (
                 <>
                     {" "}
@@ -131,8 +142,11 @@ const ServiceCard = ({ icon, title, children }) => {
             ) : (
                 <>
                     {" "}
-                    <img src={icon} alt="Logo" />
-                    <div>{children}</div>
+                    <div className="logos">
+                        <img src={icon} alt="Logo" />
+                        <IoMdClose size="3rem" onClick={closeCard} />
+                    </div>
+                    <div className="content">{children}</div>
                     <h3>{title}</h3>{" "}
                 </>
             )}
