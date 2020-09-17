@@ -9,10 +9,26 @@ module.exports = {
         title: "Iguana",
         description:
             "Dedicação Premium com o Cliente, Parceiros & Colaboradores",
-        siteUrl: "https://iguana.pt",
+        siteUrl: "https://www.iguanalda.com",
     },
     plugins: [
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-sitemap`,
+        `gatsby-plugin-robots-txt`,
         `gatsby-plugin-styled-components`,
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Iguana`,
+                short_name: `Iguana`,
+                start_url: `/`,
+                background_color: `#fff`,
+                theme_color: `#F27924`,
+                display: `minimal-ui`,
+                icon: `src/content/logo.svg`,
+            },
+        },
+        `gatsby-plugin-offline`,
         {
             resolve: `gatsby-plugin-prefetch-google-fonts`,
             options: {
