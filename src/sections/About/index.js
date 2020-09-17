@@ -28,16 +28,13 @@ const About = () => {
                     <ContentGroup>
                         <h3>Nossa filosofia</h3>
                         <p>
-                            Somos vocacionados para o ramo de Consultoria
-                            Diversa, Formação Profissional, Assessoria Fiscal,
-                            Contabilística e Jurídica, Gestão do Pessoal, e
-                            incubadora de empresas. Temos feito novas parcerias
-                            e consórcios com empresas patenteadas no mercado
-                            nacional e estrangeiro.
-                        </p>
-                        <p>
                             A nossa filosofia de distinção é a dedicação aos
                             nossos clientes, parceiros e colaboradores. 
+                        </p>
+                        <p>
+                            Temos feito novas parcerias
+                            e consórcios com empresas patenteadas no mercado
+                            nacional e estrangeiro.
                         </p>
                     </ContentGroup>
                     <ContentGroup invert>

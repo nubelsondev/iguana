@@ -22,7 +22,6 @@ const Contacts = () => {
             <Info>
                 <SectionTitle
                     title="Contactos"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex vehicula, vulputate diam vel, ultrices mauris."
                 />
 
                 <Content>

@@ -3,7 +3,7 @@ import React from "react"
 import Analytics from "../../content/icons/Analytics.png"
 import Document from "../../content/icons/Document.png"
 import People from "../../content/icons/People.png"
-import Hourglass from "../../content/icons/Hourglass.png"
+import Coin from "../../content/icons/Coin.png"
 
 import { StyledSection, Info, Image, Content } from "./styles"
 
@@ -35,32 +35,32 @@ const Services = () => {
                         </ul>
                     </ServiceCard>
 
-                    <ServiceCard icon={Hourglass} title="Assessoria Jurídica.">
+                    <ServiceCard icon={Coin} title="Assessoria em Cobrança.">
                         <p>
-                            Assessoria jurídica nas áreas civil, trabalhista,
-                            legislativa e de meio ambiente oferecendo
-                            orientações por meio de pareceres jurídicos e
-                            realizando a interposição de medidas judiciais de
-                            interesse colectivo e não só:
+                        Possuímos uma unidade de negócio 
+                        especializada em estudo e concepção
+                        de projetos de cobranças e recuperação 
+                        de créditos.
                         </p>
 
                         <ul>
-                            <li>Elaboração de projectos</li>
-                            <li>Prestação de apoio jurídico</li>
+                            <li>Cobrança Administrativa</li>
+                            <li>Cobrança Extrajudicial</li>
+                            <li>Cobrança Judicial</li>
                         </ul>
                     </ServiceCard>
 
                     <ServiceCard
                         icon={People}
-                        title="Assessoria de Gestão Pessoal."
+                        title="Assessoria de Gestão de Pessoal."
                     >
                         <p>
                             Serviços especializados em Gestão de Pessoas nas
-                            seguintes linhas de actuação:
+                            seguintes linhas de atuação:
                         </p>
 
                         <ul>
-                            <li>Recrutamento e selecção</li>
+                            <li>Recrutamento e seleção</li>
                             <li>Processamento de salario e remuneração</li>
                             <li>Avaliação de desempenho</li>
                             <li>Pesquisa de clima organizacional</li>
