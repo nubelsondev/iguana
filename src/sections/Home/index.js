@@ -16,7 +16,7 @@ const Home = () => {
                     <div>
                         <p>
                             Uma nova forma de evoluir à si e à sua empresa,
-                            junta-te à nós. A Iguana tem tudo o que você
+                            junte-se à nós. A Iguana tem tudo o que você
                             precisa.
                         </p>
                         <Link to="about" spy={true} smooth={true}>
